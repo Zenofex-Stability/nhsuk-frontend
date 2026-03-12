@@ -328,6 +328,12 @@ const options = {
     required: false,
     description:
       'HTML attributes (for example data attributes) to add to the header container.'
+  },
+  colour: {
+    type: 'string',
+    required: false,
+    description:
+      'Optional colour modifier for the header – for example, `"white"`.'
   }
 }
 
