@@ -68,6 +68,12 @@ const options = {
     required: false,
     description:
       'Any extra HTML attributes (for example data attributes) to add to the input component.'
+  },
+  interruption: {
+    type: 'boolean',
+    required: false,
+    description:
+      "If set to `true`, show an interruption panel to pause a user's journey with important information."
   }
 }
 

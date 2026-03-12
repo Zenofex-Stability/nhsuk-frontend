@@ -4,6 +4,10 @@
 {%- set classNames = "nhsuk-panel" -%}
 {%- set classNamesTitle = "nhsuk-panel__title" -%}
 
+{%- if params.interruption and (not params.classes or not "nhsuk-panel--interruption" in params.classes) %}
+  {% set classNames = classNames ~ " nhsuk-panel--interruption" %}
+{% endif %}
+
 {%- if params.titleSize and
   params.titleSize in ["m", "l", "xl"] and (
     not params.titleClasses or (
