@@ -239,7 +239,7 @@ const fixtures = {
   'secondary, solid background': {
     context: {
       text: 'Find my location',
-      classes: 'nhsuk-button--secondary-solid'
+      secondarySolid: true
     },
     options: {
       layout: 'background-grey'
@@ -252,7 +252,7 @@ const fixtures = {
   'secondary, solid background, small': {
     context: {
       text: 'Find my location',
-      classes: 'nhsuk-button--secondary-solid',
+      secondarySolid: true,
       small: true
     },
     options: {
@@ -262,7 +262,7 @@ const fixtures = {
   'secondary, solid background disabled': {
     context: {
       text: 'Find my location',
-      classes: 'nhsuk-button--secondary-solid',
+      secondarySolid: true,
       disabled: true
     },
     options: {
@@ -273,7 +273,7 @@ const fixtures = {
   'secondary, solid background disabled, small': {
     context: {
       text: 'Find my location',
-      classes: 'nhsuk-button--secondary-solid',
+      secondarySolid: true,
       disabled: true,
       small: true
     },
@@ -284,7 +284,7 @@ const fixtures = {
   'secondary, solid background as a link': {
     context: {
       text: 'Find my location',
-      classes: 'nhsuk-button--secondary-solid',
+      secondarySolid: true,
       href: '#'
     },
     options: {
@@ -298,7 +298,7 @@ const fixtures = {
   'secondary, solid background as a link, small': {
     context: {
       text: 'Find my location',
-      classes: 'nhsuk-button--secondary-solid',
+      secondarySolid: true,
       small: true,
       href: '#'
     },

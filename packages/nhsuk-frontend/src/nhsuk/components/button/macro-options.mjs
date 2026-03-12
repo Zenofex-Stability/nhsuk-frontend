@@ -76,6 +76,12 @@ const options = {
     description:
       'If set to `true`, show a transparent secondary button on the page background colour.'
   },
+  secondarySolid: {
+    type: 'boolean',
+    required: false,
+    description:
+      'If set to `true`, show a solid secondary button on darker backgrounds.'
+  },
   small: {
     type: 'boolean',
     required: false,
