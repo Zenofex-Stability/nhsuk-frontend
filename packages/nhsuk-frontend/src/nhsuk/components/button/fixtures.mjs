@@ -53,7 +53,7 @@ const fixtures = {
   'login': {
     context: {
       text: 'Continue',
-      classes: 'nhsuk-button--login'
+      login: true
     },
     screenshot: {
       states: ['focus', 'hover', 'active'],
@@ -63,14 +63,14 @@ const fixtures = {
   'login, small': {
     context: {
       text: 'Continue',
-      classes: 'nhsuk-button--login',
+      login: true,
       small: true
     }
   },
   'login disabled': {
     context: {
       text: 'Continue',
-      classes: 'nhsuk-button--login',
+      login: true,
       disabled: true
     },
     screenshot: true
@@ -78,7 +78,7 @@ const fixtures = {
   'login disabled, small': {
     context: {
       text: 'Continue',
-      classes: 'nhsuk-button--login',
+      login: true,
       small: true,
       disabled: true
     }
@@ -86,7 +86,7 @@ const fixtures = {
   'login as a link': {
     context: {
       text: 'Continue',
-      classes: 'nhsuk-button--login',
+      login: true,
       href: '#'
     },
     screenshot: {
@@ -97,7 +97,7 @@ const fixtures = {
   'login as a link, small': {
     context: {
       text: 'Continue',
-      classes: 'nhsuk-button--login',
+      login: true,
       small: true,
       href: '#'
     }
