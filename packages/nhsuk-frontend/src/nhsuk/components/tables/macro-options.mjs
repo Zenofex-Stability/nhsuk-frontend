@@ -113,6 +113,12 @@ const options = {
     required: false,
     description: 'If set to `true`, responsive table classes will be applied.'
   },
+  reverse: {
+    type: 'boolean',
+    required: false,
+    description:
+      'If set to `true`, show reverse white borders and row hover states on dark backgrounds.'
+  },
   card: {
     type: 'object',
     required: false,
