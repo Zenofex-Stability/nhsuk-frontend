@@ -33,6 +33,12 @@ const options = {
     required: false,
     description:
       'HTML attributes (for example data attributes) to add to the tag.'
+  },
+  colour: {
+    type: 'string',
+    required: false,
+    description:
+      'Optional colour modifier for the tag – for example, `"white"`, `"grey"`, `"green"`, `"aqua-green"`, `"blue"`, `"purple"`, `"pink"`, `"red"`, `"orange"` or `"yellow"`.'
   }
 }
 
