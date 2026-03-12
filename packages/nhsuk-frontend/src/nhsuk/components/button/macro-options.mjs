@@ -70,6 +70,12 @@ const options = {
     description:
       'If set to `true`, show a reverse white button on dark backgrounds.'
   },
+  secondary: {
+    type: 'boolean',
+    required: false,
+    description:
+      'If set to `true`, show a transparent secondary button on the page background colour.'
+  },
   small: {
     type: 'boolean',
     required: false,

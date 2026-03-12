@@ -11,6 +11,10 @@
   {% set classNames = classNames ~ " nhsuk-button--reverse" %}
 {% endif %}
 
+{%- if params.secondary and (not params.classes or not "nhsuk-button--secondary" in params.classes) %}
+  {% set classNames = classNames ~ " nhsuk-button--secondary" %}
+{% endif %}
+
 {%- if params.small and (not params.classes or not "nhsuk-button--small" in params.classes) %}
   {% set classNames = classNames ~ " nhsuk-button--small" %}
 {% endif %}

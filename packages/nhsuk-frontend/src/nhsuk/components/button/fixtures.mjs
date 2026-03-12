@@ -187,7 +187,7 @@ const fixtures = {
   'secondary': {
     context: {
       text: 'Find my location',
-      classes: 'nhsuk-button--secondary'
+      secondary: true
     },
     screenshot: {
       states: ['focus', 'hover', 'active'],
@@ -197,14 +197,14 @@ const fixtures = {
   'secondary, small': {
     context: {
       text: 'Find my location',
-      classes: 'nhsuk-button--secondary',
+      secondary: true,
       small: true
     }
   },
   'secondary disabled': {
     context: {
       text: 'Find my location',
-      classes: 'nhsuk-button--secondary',
+      secondary: true,
       disabled: true
     },
     screenshot: true
@@ -212,7 +212,7 @@ const fixtures = {
   'secondary disabled, small': {
     context: {
       text: 'Find my location',
-      classes: 'nhsuk-button--secondary',
+      secondary: true,
       disabled: true,
       small: true
     }
@@ -220,7 +220,7 @@ const fixtures = {
   'secondary as a link': {
     context: {
       text: 'Find my location',
-      classes: 'nhsuk-button--secondary',
+      secondary: true,
       href: '#'
     },
     screenshot: {
@@ -231,7 +231,7 @@ const fixtures = {
   'secondary as a link, small': {
     context: {
       text: 'Find my location',
-      classes: 'nhsuk-button--secondary',
+      secondary: true,
       small: true,
       href: '#'
     }

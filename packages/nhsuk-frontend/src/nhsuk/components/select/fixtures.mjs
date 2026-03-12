@@ -207,7 +207,7 @@ const fixtures = {
           html: components.render('button', {
             context: {
               text: 'Save',
-              classes: 'nhsuk-button--secondary',
+              secondary: true,
               small: true
             }
           })
@@ -279,7 +279,7 @@ const fixtures = {
           html: components.render('button', {
             context: {
               text: 'Save',
-              classes: 'nhsuk-button--secondary',
+              secondary: true,
               small: true
             }
           })
