@@ -82,6 +82,12 @@ const options = {
     description:
       'If set to `true`, show a solid secondary button on darker backgrounds.'
   },
+  warning: {
+    type: 'boolean',
+    required: false,
+    description:
+      'If set to `true`, show a solid red warning button for actions with serious destructive consequences that a user cannot easily undo.'
+  },
   small: {
     type: 'boolean',
     required: false,

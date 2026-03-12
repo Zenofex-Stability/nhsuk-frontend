@@ -309,7 +309,7 @@ const fixtures = {
   'warning': {
     context: {
       text: 'Yes, delete this vaccine',
-      classes: 'nhsuk-button--warning'
+      warning: true
     },
     screenshot: {
       states: ['focus', 'hover', 'active'],
@@ -319,14 +319,14 @@ const fixtures = {
   'warning, small': {
     context: {
       text: 'Yes, delete this vaccine',
-      classes: 'nhsuk-button--warning',
-      small: true
+      small: true,
+      warning: true
     }
   },
   'warning disabled': {
     context: {
       text: 'Yes, delete this vaccine',
-      classes: 'nhsuk-button--warning',
+      warning: true,
       disabled: true
     },
     screenshot: true
@@ -334,7 +334,7 @@ const fixtures = {
   'warning disabled, small': {
     context: {
       text: 'Yes, delete this vaccine',
-      classes: 'nhsuk-button--warning',
+      small: true,
       warning: true,
       disabled: true
     }
@@ -342,7 +342,7 @@ const fixtures = {
   'warning as a link': {
     context: {
       text: 'Yes, delete this vaccine',
-      classes: 'nhsuk-button--warning',
+      warning: true,
       href: '#'
     },
     screenshot: {
@@ -353,8 +353,8 @@ const fixtures = {
   'warning as a link, small': {
     context: {
       text: 'Yes, delete this vaccine',
-      classes: 'nhsuk-button--warning',
       small: true,
+      warning: true,
       href: '#'
     }
   }
